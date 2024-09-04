@@ -2,7 +2,7 @@ function mergeSort(arr){
     //sort left half
     //sort right half
     //merge the halfs
-
+    if (arr.length === 0) return
     if (arr.length === 1) return arr
 
    
@@ -35,9 +35,3 @@ function merge(left, right){
 
 }
 
-
-
-
-
-
-console.log(mergeSort([2,1,4,3,9]))
