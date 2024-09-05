@@ -20,5 +20,3 @@ function merge(left, right) {
   }
   return arr.concat(merge(left, right));
 }
-
-console.log(mergeSort([2,4,3, -1, 0, 3]))
